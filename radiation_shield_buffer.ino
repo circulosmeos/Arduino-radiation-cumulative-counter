@@ -93,17 +93,17 @@ void setup(){
   lcd.setCursor(0, 0);
   lcd.print(" Cooking Hacks");
   delay(1000);*/
-
+  /*
   lcd.clear();
   lcd.setCursor(0,1);  
-  lcd.print("ok, let's go now...");
+  lcd.print("wait at least 5 min");
   delay(500);
   for (int i=0;i<5;i++){
     delay(200);  
     lcd.scrollDisplayLeft();
   }
   delay(500);
-
+  */
   /*lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("  - Libelium -");
@@ -182,8 +182,28 @@ void loop(){
     lcd.setCursor(5,1);
     lcd.print("uSv/h");
 
+    if (buffer_full == true) { // marks 5 minutes time completion
+      lcd.setCursor(10,1);
+      lcd.print("|");
+    }
+    
     lcd.setCursor(11,1);
-    lcd.print(radiationValueAccu,3);
+    if ( buffer_full == true || 
+      (pointer>15 && pointer%2==0) ) { // between 2.5 and 5 minutes, show both uSv/h and time elapsed
+      lcd.print(radiationValueAccu,3);
+    } else {
+      lcd.print( pointer/6, DEC ); 
+      lcd.setCursor(12,1);
+      lcd.print( "m" );
+      lcd.setCursor(13,1);
+      if (pointer%6==0) {
+        lcd.print("00");
+      } else {
+        lcd.print( (pointer%6)*10, DEC );        
+      }
+      lcd.setCursor(15,1);
+      lcd.print( "s" );
+    }
 
     //led var setting  
     if(countPerMinute <= TH1) ledVar(0);
