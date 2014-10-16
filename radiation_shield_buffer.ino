@@ -47,7 +47,7 @@ LiquidCrystal lcd(3,4,5,6,7,8);
 // Conversion factor - CPM to uSV/h
 #define CONV_FACTOR 0.00812
 
-// 5 min de cuentas
+// 5 min of counts
 #define BUFFER_COUNTS 30
 
 // Variables
