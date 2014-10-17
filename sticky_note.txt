@@ -1,0 +1,24 @@
+CPM to μSv/h: 	0.00812	(with this detector)
+
+Human exposure to natural background radiation, 
+global average:
+2.4   mSv/a	= 0.27 	μSv/h avg 	
+
+0.081 μSv/h = 0.72 	mSv/a ~ 10 CMP
+0.154 μSv/h = 1.36 	mSv/a ~ 19 CMP
+0.162 μSv/h = 1.44 	mSv/a ~ 20 CMP
+0.244 μSv/h = 2.17	mSv/a ~ 30 CMP
+0.27  μSv/h = 2.4 	mSv/a ~ 33.2 CMP <----
+0.325 μSv/h = 2.88	mSv/a ~ 40 CMP
+0.406 μSv/h = 3.61	mSv/a ~ 50 CMP
+114.1 μSv/h = 1 	   Sv/a 
+1000  μSv/h = 8.766	 Sv/a
+
+1 Gy = 1 Sv
+(for X, beta and gamma rays)
+
+1 Sv = 100 rem
+1 Gy = 100 rad
+
+One roentgen ~ 1 rad = 0.01 Gy ~= 0.01 Sv 
+(in soft tissue)
