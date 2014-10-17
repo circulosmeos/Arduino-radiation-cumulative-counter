@@ -7,4 +7,4 @@ based on :
 
 http://www.cooking-hacks.com/documentation/tutorials/geiger-counter-arduino-radiation-sensor-board#source_code
 
-by circulosmeos (http://wp.me/p2FmmK-6h)
+by circulosmeos (http://wp.me/p2FmmK-6h, http://wp.me/p2FmmK-74)
